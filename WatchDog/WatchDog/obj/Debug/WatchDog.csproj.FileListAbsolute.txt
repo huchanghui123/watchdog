@@ -1,0 +1,15 @@
+E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\WatchDog.exe.config
+E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\WatchDog.exe
+E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\WatchDog.pdb
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.AboutForm.resources
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.ExitForm.resources
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.Properties.Resources.resources
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.csproj.GenerateResource.cache
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.csproj.CoreCompileInputs.cache
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.exe
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.pdb
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.HelpForm.resources
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.WDTMain.resources
+E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\log4net.dll
+E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\log4net.xml
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.csproj.CopyComplete
