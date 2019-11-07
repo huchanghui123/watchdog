@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace WatchDog
 {
@@ -17,7 +9,7 @@ namespace WatchDog
         private FileStreamUtils fsu = null;
         private ExitForm exitForm = null;
         private static ushort Timeout = 60; //default feed dog time out
-        private static Double TimerInterval = (UInt16)(Timeout - 1);
+        private static Double TimerInterval = (UInt16)(Timeout - 2);
         private static string TimePath = Application.StartupPath + "\\timeout.txt";
 
         public System.Timers.Timer feedtimer = null;
@@ -102,9 +94,13 @@ namespace WatchDog
             {
                 TimerInterval = 0.5;
             }
+            else if (Timeout == 2)
+            {
+                TimerInterval = 1;
+            }
             else
             {
-                TimerInterval = (ushort)(Timeout - 1);
+                TimerInterval = (ushort)(Timeout - 2);
             }
 
             if (feedtimer == null)
@@ -178,9 +174,13 @@ namespace WatchDog
             {
                 TimerInterval = 0.5;
             }
+            else if (Timeout == 2)
+            {
+                TimerInterval = 1;
+            }
             else
             {
-                TimerInterval = (ushort)(Timeout - 1);
+                TimerInterval = (ushort)(Timeout - 2);
             }
 
             watchdog.FeedDog(Timeout);

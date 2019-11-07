@@ -13,3 +13,4 @@ E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.WDTMain.resources
 E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\log4net.dll
 E:\Visual Studio\C#\WatchDog\WatchDog\bin\Debug\log4net.xml
 E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.csproj.CopyComplete
+E:\Visual Studio\C#\WatchDog\WatchDog\obj\Debug\WatchDog.csprojAssemblyReference.cache

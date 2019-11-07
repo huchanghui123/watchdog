@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WatchDog
 {
@@ -56,7 +52,7 @@ namespace WatchDog
         {
             //set configuartion register
             MyOls.WriteIoPortByte(0x2e, 0x72);
-            MyOls.WriteIoPortByte(0x2f, 0xc0);//1100 0000
+            MyOls.WriteIoPortByte(0x2f, 0x90);//1001 0000
         }
 
         public void StopWatchDog()
